@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- PAGE TITLE -->
+<title>Your Product Name</title>
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+body,
+html {
+background: url(https://source.unsplash.com/h0Vxgz5tyXA/1920x1280)
+no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+</style>
+</head>
+<body class="bg-gray-800">
+<div class="flex flex-col h-screen justify-between md:pt-7">
+<header class="mb-4x text-gray-300">
+<div class="container mx-auto bg-black px-3 py-1">
+<div class="lg:flex lg:items-center lg:justify-between px-3 lg:px-0">
+<!-- Product or Service Name -->
+<div class="text-2xl">
+Your Product Name
+</div><!-- Stars -->
+<div class="flex text-yellow-400">
+<span class="text-gray-300x">4.6 stars from 1,000+ users</span> <span class="ml-2 material-icons">star</span> <span class="material-icons">star</span> <span class="material-icons">star</span> <span class="material-icons">star</span> <span class="material-icons">star_half</span>
+</div><!-- Author or Video Host -->
+<div class="flex items-center justify-end">
+<span class="">Your Name</span> <a href="#" class="ml-3"> <img class="h-12 w-12 rounded-full" src="https://mastersofscale.com/wp-content/uploads/2022/09/MoS_PresidentBarackObama_colorcutout.webp" alt=""></a>
+</div>
+</div>
+</div>
+</header>
+<main class="container mb-auto mx-auto shadow-2xl bg-white">
+<div class="aspect-w-16 aspect-h-9 mb-7">
+<!-- YOUR VIDEO -->
+<video src="https://s3.amazonaws.com/my-first-video-host-server/Second_Folder/Plane_Video.mp4" poster="https://i.vimeocdn.com/video/1225155242?mw=600&amp;mh=338" controls style="width: 100%" class="md:rounded-xl"></video>
+</div><!-- Buy Now -->
+<div class="pb-7">
+<div class="text-purple-500x text-center text-xl font-semibold mb-4">
+Get Your Access Now!
+</div><!-- Buy Now Button -->
+<div class="mb-7 text-center">
+<!-- YOUR BUY BUTTON -->
+<form action="https://sandbox.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="business" value="sb-dyk6x7367177@business.example.com"> <input type="hidden" name="cmd" value="_xclick"> <input type="hidden" name="item_name" value="Hot Sauce-12oz. Bottle"> <input type="hidden" name="amount" value="5.95"> <input type="hidden" name="currency_code" value="USD"> <button class="button bg-yellow-400 px-12 py-2 rounded-lg" type="submit">
+<div class="flex">
+<span class="material-icons mr-2">shopping_cart</span> <span>Buy Now</span>
+</div></button> <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+</form><!-- (buy button end) -->
+</div>
+</div>
+</main><!-- <div class="h-1 bg-black md:invisible"></div> -->
+<footer class="
+text-right text-gray-300
+flex flex-col
+md:flex-row
+text-center
+items-center
+bg-black
+md:text-sm md:bg-transparent md:justify-end md:pb-5
+">
+<!-- YOUR LEGAL LINKS --> <a href="#terms" target="_blank" class="mx-4 py-3 md:py-0">Terms</a> <a href="#privacy" target="_blank" class="mx-4 py-3 md:py-0">Privacy</a>
+</footer>
+</div>
+</body>
+</html>
